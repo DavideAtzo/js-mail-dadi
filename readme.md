@@ -15,5 +15,6 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto. -->
 
 step-1: creo 2 variabili diverse (una per il pc, una per il giocatore) che diano valori random;
 step-2: creo una terza variabile che comprenderà il possibile risultato;
-step-3: condizione dove metterò a confronto il risultato del pc e del giocatore;
-step-4: inserire il risultato nella variabile dello step-2 + consol.log del vincitore con punteggio più alto;
+step-3: creo su html le 3 variabili come elementi + il bottone che scattenerà il calcolo;
+step-4: condizione dove metterò a confronto il risultato del pc e del giocatore;
+step-5: inserire il risultato nella variabile dello step-2 e sugli elementi html + consol.log del vincitore con punteggio più alto + a schermo;
