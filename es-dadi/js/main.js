@@ -13,16 +13,19 @@ btnGioca.addEventListener('click',
         if (puntGiocatore > puntComputer){
             document.getElementById('punt-giocatore').innerHTML = puntGiocatore;
             document.getElementById('punt-pc').innerHTML = puntComputer;
+            risultato.innerText = ('hai vinto');
             console.log('hai vinto!');
           } 
           else if (puntGiocatore < puntComputer) {
             document.getElementById('punt-giocatore').innerHTML = puntGiocatore;
             document.getElementById('punt-pc').innerHTML = puntComputer;
+            risultato.innerText = ('ahahah hai perso!');
             console.log('ahahah hai perso!');
           } 
           else{
             document.getElementById('punt-giocatore').innerHTML = puntGiocatore;
             document.getElementById('punt-pc').innerHTML = puntComputer;
+            risultato.innerText = ('gioca di nuovo');
             console.log('gioca di nuovo');
           }
     }
